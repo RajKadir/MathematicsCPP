@@ -149,6 +149,44 @@ void simplifyExpressions_1d(){
     // 4y(3y - x)
 }
 
+void simplifyExpressions_1e(){
+
+    // Factorising quadratic expressions
+
+    // Factorise 6x^2 + 9x
+    // 3x is the common factor
+    // 3x(2x + 3)
+
+    // Factorise x^2 - 5x - 6 in the form ax^2 + bx + c where a, b and c are constants and a != 0
+    // a = 1, b = -6, c = -6
+    // workout ac = 1*-6 = -6
+    // So, x^2 -5x + 6 = x^2 + x -6x -6
+    // workout two factors of ac to give you b
+    // there are -6 and +1 = -5
+    // rewrite bx using these two factors
+    // Factorise first two terms and last two terms
+    // x(x+1)-6(x+1)
+    // (x+1) is a factor of both, so take that out of the bracket and then factor the rest
+    // = (x+1)(x-6)
+
+
+    // [24] 15x^2 + 42x -9
+    // 3 is the common factor
+    // 3(5x^2 + 14x - 3)
+    // Use decomposition
+    // 5 * -3 = -15
+    // workout the factors to give 14
+    // so 15 - 1 since 15 * - 1 = -15, and 15 + -1 = 14
+    // = 3(5x^2 + 15x - x - 3)
+    // = 3[5x(x+3)-1(x+3)]
+    // We can take out the (x+3)
+    // = 3[5x-1(x+3)]
+    // So the answer is
+    // = 3(5x-1)(x+3)
+
+
+}
+
 int main()
 {
 
