@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include<conio.h>
 
 using namespace std;
 
@@ -24,13 +26,13 @@ void simplifyExpressions_1a()
     int ac;
 
     // [4] 3ab - 3ac + 3a - 7ab + 5ac
-    3*ab - 3*ac + 3*a - 7*ab + 5*ac
+    3*ab - 3*ac + 3*a - 7*ab + 5*ac;
 
     // Rearrange
-    3*a + 3*ab - 7*ab - 3*ac + 5*ac
+    3*a + 3*ab - 7*ab - 3*ac + 5*ac;
 
     // Simplified to 3a - 4ab + 2ac
-    3*a - 4*ab + 2*ac
+    3*a - 4*ab + 2*ac;
 
 
 
@@ -103,11 +105,54 @@ void simplifyExpressions_1c(){
     // = 23x^2 -9x^3
 }
 
+void simplifyExpressions_1d(){
+
+    cout << "Factorising expressions completely " << endl;
+    cout << "[1] 4x + 8 " << endl;
+    cout << "What is the common factor of 4x + 8 ?" << endl;
+
+    // Check for the input, keep repeating until the user inputs the correct answer
+    int nCommonFactor;
+    while(nCommonFactor != 4){
+        cin >> nCommonFactor;
+        if (nCommonFactor != 4){
+            cout << "Incorrect." << endl;
+        }else{
+            cout << "Correct the answer is 4." << endl;
+        }
+    }
+
+    cout << "Press a key to continue" << endl;
+    // wait for the user to press something before continuing
+    getch();
+
+    cout << "What is the factorised version?" << endl;
+
+    // Check if user answers correct factorised version
+    string strFactorisedVersion;
+    bool done = false;
+    while(done == false){
+        getline(cin, strFactorisedVersion);
+
+        if(strFactorisedVersion == "4(x + 2)"){
+            cout << "Correct the factorised version is 4(x + 2) " << endl;
+            done = true;
+        }
+        else{
+            cout << "Incorrect, make sure the format is like: 1(x + 9)" << endl;
+        }
+    }
+
+
+    // [24] 12y^2 - 4yx
+    // Common factor = 4y
+    // 4y(3y - x)
+}
 
 int main()
 {
 
     cout << "Welcome to chapter 1 A Level Mathematics in C++" << endl;
-
+    simplifyExpressions_1d();
     return 0;
 }
