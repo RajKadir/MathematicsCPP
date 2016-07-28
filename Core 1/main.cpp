@@ -21,6 +21,6 @@ int main()
     */
 
     cout << "Chapter 2: Quadratic Functions" << endl;
-    quadraticFunctions_1a();
+    quadraticFunctions_2b();
     return 0;
 }
