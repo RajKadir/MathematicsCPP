@@ -29,6 +29,7 @@ int main()
     /*
         Chapter 3
     */
+    equationsAndInequalities_3a();
     equationsAndInequalities_3b();
 
     return 0;

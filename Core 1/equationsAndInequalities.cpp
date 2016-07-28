@@ -13,7 +13,7 @@ void equationsAndInequalities_3a(){
     /*
         Question 1
     */
-    cout << "Question 1: " << endl;
+    cout << "Question 3a 1: " << endl;
     cout << "(1) 2x - y = 6" << endl;
     cout << "(2) 4x + 3y = 22" << endl;
     cout << "I am going to try an eliminate y first" << endl;
@@ -30,7 +30,7 @@ void equationsAndInequalities_3a(){
     cout << "y = 2(4) - 6 = 8 - 6" << endl;
     cout << "y = 2 " << endl;
     cout << "So x = 4,  y = 2" << endl;
-
+    cout << "" << endl;
 }
 
 void equationsAndInequalities_3b(){
@@ -39,7 +39,7 @@ void equationsAndInequalities_3b(){
     /*
         Question 1
     */
-    cout << "Question 1: " << endl;
+    cout << "Question 3b 1: " << endl;
     cout << "(1) x + 3y = 11" << endl;
     cout << "(2) 4x - 7y = 6" << endl;
     cout << "We can use substitute by finding an equation for x or y " << endl;
@@ -57,3 +57,15 @@ void equationsAndInequalities_3b(){
     cout << "So x = 5, y = 2" << endl;
 
 }
+
+equationsAndInequalities_3c(){
+
+    cout << "Solving equations with one being linear the other quadratic." << endl;
+
+    /*
+        Question 1
+    */
+
+
+}
+
