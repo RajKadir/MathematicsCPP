@@ -6,6 +6,7 @@
 // My Chapter Files
 #include "algebraAndFunctions.h"
 #include "quadraticFunctions.h"
+#include "equationsAndInequalities.h"
 using namespace std;
 
 
@@ -16,11 +17,19 @@ int main()
     SetConsoleOutputCP(65001);
 
     /*
-        cout << "Welcome to chapter 1 A Level Mathematics in C++" << endl;
-        algebraAndFunctions_1h();
+        Chapter 1
     */
 
-    cout << "Chapter 2: Quadratic Functions" << endl;
-    quadraticFunctions_2();
+    /*
+        Chapter 2
+    */
+        //cout << "Chapter 2: Quadratic Functions" << endl;
+        //quadraticFunctions_2();
+
+    /*
+        Chapter 3
+    */
+    equationsAndInequalities_3b();
+
     return 0;
 }
