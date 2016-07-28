@@ -149,6 +149,21 @@ void quadraticFunctions_2d(){
     cout << "answer: x = -4+v26/5 or x = -4-v26/5" << endl;
 }
 
+void quadraticFunctions_2e(){
+
+    cout << "We can solve quadratics using the formula x = -b+-v(b^2 -4ac)/2a" << endl;
+
+    /*
+        Question 1
+    */
+
+}
+
+void quadraticFunctions_2f(){
+
+
+}
+
 int equation_2b1(int x, int y){
     return y = x*x - 4*x;
 }
