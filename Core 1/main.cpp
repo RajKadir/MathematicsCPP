@@ -31,6 +31,9 @@ int main()
     */
     equationsAndInequalities_3a();
     equationsAndInequalities_3b();
+    equationsAndInequalities_3c();
+    equationsAndInequalities_3d();
+    equationsAndInequalities_3e();
 
     return 0;
 }
