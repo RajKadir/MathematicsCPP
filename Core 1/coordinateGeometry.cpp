@@ -98,6 +98,34 @@ void coordinateGeometry_5a(){
     cout << "\t Divide by 6: x = 3" << endl;
     cout << "\t x = 3, y = 0 -> coordinates of P(3,0)" << endl << endl;
     getch();
+
+
+    /*
+        Question 10
+    */
+    cout << "[10] The line 5x - 4y + 20 = 0 and meets the y axis at point A and the x axis at point B. " << endl;y
+    cout << "\t x must be 0 when the line meets the y-axis -> 5(0) -4y + 20 = 0" << endl;
+    cout << "\t Rearrange: 20 = 4y" << endl;
+    cout << "\t Divide by 4: y = 5" << endl;
+    cout << "\t Coordinates of A(0, 5)" << endl << endl;
+    cout << "\t y must be 0 when the line meets the x-axis -> 5x -4(0) + 20 = 0" << endl;
+    cout << "\t Rearranged: 5x = -20" << endl;
+    cout << "\t Divide by 5: x = -4" << endl;
+    cout << "\t Coordinates of B(-4, 0)" << endl;
+}
+
+void coordinateGeometry_5b(){
+
 }
 
 
+void coordinateGeometry_5c(){
+}
+
+void coordinateGeometry_5d(){
+
+}
+
+void coordinateGeometry_5e(){
+
+}
