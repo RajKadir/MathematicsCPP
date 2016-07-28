@@ -103,7 +103,7 @@ void coordinateGeometry_5a(){
     /*
         Question 10
     */
-    cout << "[10] The line 5x - 4y + 20 = 0 and meets the y axis at point A and the x axis at point B. " << endl;y
+    cout << "[10] The line 5x - 4y + 20 = 0 and meets the y axis at point A and the x axis at point B. " << endl;
     cout << "\t x must be 0 when the line meets the y-axis -> 5(0) -4y + 20 = 0" << endl;
     cout << "\t Rearrange: 20 = 4y" << endl;
     cout << "\t Divide by 4: y = 5" << endl;
