@@ -52,16 +52,52 @@ void coordinateGeometry_5a(){
     cout << "\t c = -2" << endl << endl;
     getch();
     /*
-        Question 3b
+        Question 3
     */
     cout << "[3] Write these lines in the form of ax + by + c = 0" << endl << endl;
 
     cout << "\t 3b) y = 3x - 2" << endl;
     cout << "\t Simple rearranging, move y to the RHS" << endl;
-    cout << "\t Answer: 3x - y - 2 = 0" << endl;
+    cout << "\t Answer: 3x - y - 2 = 0" << endl << endl;
     getch();
 
+    cout << "\t 3i) y = -6x -2/3" << endl;
+    cout << "\t Rearrange to LHS: y + 6x + 2/3 = 0" << endl;
+    cout << "\t Rearrange to ax + by + c: 6x + y + 2/3 = 0" << endl;
+    cout << "\t Multiply by 3 to remove fractions" << endl;
+    cout << "\t Answer: 18x + 3y + 2 = 0" << endl << endl;
+    getch();
 
+    /*
+        Question 4
+    */
+    cout << "[4] A line is a parallel to the line y = 5x + 8, and it's intercept is (0,3). \nWrite down the equation of the line." << endl;
+    cout << "\t If a line is parallel then it's gradient must be the same so m=5." << endl;
+    cout << "\t If the intercept is (0,3) then c is = 3." << endl;
+    cout << "\t So the equation must be y = 5x + 3" << endl << endl;
+    getch();
+
+    /*
+        Question 5
+    */
+    cout << "[5] A line is parallel to the line y = -2/5x + 1, intercept (0,-4). \nWrite the equation in the form ax + by + c = 0" << endl;
+    cout << "\t keywords: Parallel = same gradient m = -2/5" << endl;
+    cout << "\t intercept (0,-4) so c = -4" << endl;
+    cout << "\t equation: y = -2/5x - 4" << endl;
+    cout << "\t rearrange to form: y + 2/5x + 4 = 0" << endl;
+    cout << "\t multiply out fractions -> *5: 5y + 2x + 20 = 0" << endl;
+    cout << "\t Answer: 2x + 5y + 20 = 0 " << endl << endl;
+    getch();
+
+    /*
+        Question 8
+    */
+    cout << "[8] The line y = 6x - 18 meets the x-axis at the point P. workout the cordinates of P. " << endl;
+    cout << "\t y must be 0 when the line meets the x-axis so workout 6x - 18 = 0" << endl;
+    cout << "\t Rearrange: 6x = 18" << endl;
+    cout << "\t Divide by 6: x = 3" << endl;
+    cout << "\t x = 3, y = 0 -> coordinates of P(3,0)" << endl << endl;
+    getch();
 }
 
 
