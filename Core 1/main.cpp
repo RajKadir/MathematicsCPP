@@ -9,6 +9,7 @@
 #include "equationsAndInequalities.h"
 #include "sketchingCurves.h"
 #include "coordinateGeometry.h"
+#include "sequenceAndSeries.h"
 
 using namespace std;
 
@@ -78,6 +79,24 @@ int main()
             coordinateGeometry_5c();
             coordinateGeometry_5d();
             coordinateGeometry_5e();
+            break;
+        case 6:
+            sequenceAndSeries_6a();
+            sequenceAndSeries_6b();
+            sequenceAndSeries_6c();
+            sequenceAndSeries_6d();
+            sequenceAndSeries_6e();
+            sequenceAndSeries_6f();
+            sequenceAndSeries_6g();
+            sequenceAndSeries_6h();
+            break
+        // Differentiation
+        case 7:
+
+            break;
+        // Integration
+        case 8:
+
             break;
 
         default:

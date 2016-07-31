@@ -32,7 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="algebraAndFunctions.cpp" />
+		<Unit filename="algebraAndFunctions.h" />
+		<Unit filename="coordinateGeometry.cpp" />
+		<Unit filename="coordinateGeometry.h" />
+		<Unit filename="equationsAndInequalities.cpp" />
+		<Unit filename="equationsAndInequalities.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="quadraticFunctions.cpp" />
+		<Unit filename="quadraticFunctions.h" />
+		<Unit filename="sketchingCurves.cpp" />
+		<Unit filename="sketchingCurves.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -8,7 +8,9 @@ using namespace std;
 
 void coordinateGeometry_5a(){
 
-    cout << "-------------------- Section 5a --------------------" << endl << endl;
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 5a --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
     /*
         Question 1a
@@ -116,8 +118,9 @@ void coordinateGeometry_5a(){
 
 void coordinateGeometry_5b(){
 
-    cout << "-------------------- Section 5b --------------------" << endl << endl;
-
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 5b --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
     /*
         Question 1
     */
@@ -163,8 +166,9 @@ float workoutGradient(float x1, float y1, float x2, float y2){
 
 void coordinateGeometry_5c(){
 
-    cout << "-------------------- Section 5c --------------------" << endl << endl;
-
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 5c --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
     /*
         Question 1
     */
@@ -193,12 +197,82 @@ void coordinateGeometry_5c(){
 
 void coordinateGeometry_5d(){
 
-    cout << "-------------------- Section 5d --------------------" << endl << endl;
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 5d --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+    /*
+        Question 1
+    */
+    cout << "[1] Find the equation that passes through the points: " << endl;
+    cout << "\t 1a) (2,4) and (3,8) " << endl;
+    cout << "\t use: y-y1/y2-y1 = x-x1/x2-x1" << endl;
+    cout << "\t y-4/8-4 = x-2/3-2" << endl;
+    cout << "\t y-4/4 = x-2/1" << endl;
+    cout << "\t multiply both sides by 4" << endl;
+    cout << "\t y - 4 = 4x-8" << endl;
+    cout << "\t y = 4x - 4" << endl << endl;
+    getch;
 
+    /*
+        Question 1b
+    */
+    cout << "\t 1x) (5, 4) and (9, 2)" << endl;
+    cout << "\t using gradient instead " << endl;
+    cout << "\t use: m = y2-y1/x2-x1" << endl;
+    cout << "\t m = (2-4)/(9-5)" << endl;
+    cout << "\t m = -2/4 = -1/2" << endl;
+    cout << "\t use: y-y1=m(x-x1)" << endl;
+    cout << "\t y-4=-1/2(x-5)" << endl;
+    cout << "\t multiply both sides by 2 to remove fraction " << endl;
+    cout << "\t 2y-8=-1(x-5)" << endl;
+    cout << "\t 2y-8=-x + 5" << endl;
+    cout << "\t 2y=-x+13" << endl;
+    cout << "\t divide both sides by 2" << endl;
+    cout << "\t y = -1/2x + 13/2" << endl << endl;
+    getch();
 
-
+    cout << "[5] The line y=2x-10 meets x-axis at A. y=-2x+4 meets y axis at B. " << endl;
+    cout << "Find the equation joining the two points" << endl;
+    cout << "\t First find the coordinates of A,B" << endl;
+    cout << "\t A meets at x-axis so y must be 0" << endl;
+    cout << "\t 0=2x-10, 2x = 10, x = 5, so A(5,0)" << endl;
+    cout << "\t B meets at y-axis so x must be 0" << endl;
+    cout << "\t y=-2(0)+4 = y=4, so B(0, 4)" << endl;
+    cout << "\t find the gradient " << endl;
+    cout << "\t use: m = y2-y1/x2-x1" << endl;
+    cout << "\t m = 4-0/0-5 = -4/5" << endl;
+    cout << "\t use: y-y1=m(x-x1)" << endl;
+    cout << "\t y-0=-4/5(x-5) " << endl;
+    cout << "\t multiply both sides by 5" << endl;
+    cout << "\t 5y=-4(x-5)" << endl;
+    cout << "\t 5y -4x + 20 " << endl;
+    cout << "\t divide both sides by 5" << endl;
+    cout << "\t answer: y = -4/5x + 4" << endl << endl;
+    getch();
 }
 
 void coordinateGeometry_5e(){
+
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 5e --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+
+    /*
+        Question 1
+    */
+    cout << "[1] Workout if the line is parallel, perpendicular or neither " << endl;
+    cout << "\t 1a) (1) y=4x+2 and (2) y=-1/4x-7" << endl;
+    cout << "\t the gradients are: 4 and -1/4, so the lines are perpendicular because the product of their gradients is -1." << endl << endl;
+    getch();
+
+    cout << "\t 1b) (1) y=2/3x-1 and (2) y=2/3x-11" << endl;
+    cout << "\t the gradients are: 2/3 and 2/3" << endl;
+    cout << "\t these lines are parallel because the gradients are equal." << endl << endl;
+    getch();
+
+    cout << "\t 1c) (1) y=1/5x+9 and (2) y=5x+9" << endl;
+    cout << "\t the gradients are: 1/5 and 5" << endl;
+    cout << "\t the lines are neither because the gradients are not the same, and product 1/5*5 = 1" << endl << endl;
+    getch();
 
 }
