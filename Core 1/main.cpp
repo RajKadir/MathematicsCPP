@@ -53,6 +53,7 @@ int main()
             quadraticFunctions_2f();
             break;
 
+
         case 3:
             /*
                 Chapter 3 - Equations and Inequalities
@@ -64,12 +65,15 @@ int main()
             equationsAndInequalities_3e();
             break;
 
+
         case 4:
             /*
                 Chapter 4 - Sketching Curves
             */
             // ON PAPER
             break;
+
+
         case 5:
             /*
                 Chapter 5 - Coordinate Geometry
@@ -80,6 +84,8 @@ int main()
             coordinateGeometry_5d();
             coordinateGeometry_5e();
             break;
+
+
         case 6:
             sequenceAndSeries_6a();
             sequenceAndSeries_6b();
@@ -90,10 +96,14 @@ int main()
             sequenceAndSeries_6g();
             sequenceAndSeries_6h();
             break
+
+
         // Differentiation
         case 7:
 
             break;
+
+
         // Integration
         case 8:
 
