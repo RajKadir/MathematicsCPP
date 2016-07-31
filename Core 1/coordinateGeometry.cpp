@@ -8,7 +8,7 @@ using namespace std;
 
 void coordinateGeometry_5a(){
 
-    cout << "---- Section 5a ----" << endl << endl;
+    cout << "-------------------- Section 5a --------------------" << endl << endl;
 
     /*
         Question 1a
@@ -111,18 +111,91 @@ void coordinateGeometry_5a(){
     cout << "\t y must be 0 when the line meets the x-axis -> 5x -4(0) + 20 = 0" << endl;
     cout << "\t Rearranged: 5x = -20" << endl;
     cout << "\t Divide by 5: x = -4" << endl;
-    cout << "\t Coordinates of B(-4, 0)" << endl;
+    cout << "\t Coordinates of B(-4, 0)" << endl << endl;
 }
 
 void coordinateGeometry_5b(){
 
+    cout << "-------------------- Section 5b --------------------" << endl << endl;
+
+    /*
+        Question 1
+    */
+    cout << "[1] Workout the gradient of the line joining these pair of points: " << endl;
+    cout << "\t 1a) (4, 2), (6,3) " << endl;
+    cout << "\t Find the gradient by m = (y2-y1)/(x2-x1)" << endl;
+    cout << "\t m = (3-2)/(6-4) or 1/2" << endl;
+    cout << "\t We can check the answer: " << workoutGradient(4, 2, 6, 3) << endl << endl;
+    getch();
+
+    cout << "\t 1n) (p, p^2), (q, q^2)" << endl;
+    cout << "\t m = (y2-y1)(x2-x1)" << endl;
+    cout << "\t m = (q^2-p^2)/(q-p)" << endl;
+    cout << "\t here I can spot a difference between squares " << endl;
+    cout << "\t (q+p)(q-p)/(q-p)" << endl;
+    cout << "\t take out the (q-p) on both sides" << endl;
+    cout << "\t answer: q + p" << endl << endl;
+    getch();
+
+    /*
+        Question 2
+    */
+    cout << "[2] The line joining (3, -5),(6,a) has m =4. Workout a" << endl;
+    cout << "\t 4 = (a--5)/(6-3)" << endl;
+    cout << "\t 4 = (a+5)/3" << endl;
+    cout << "\t multiply both sides by 3" << endl;
+    cout << "\t 12 = a + 5" << endl;
+    cout << "\t move the 5 to the LHS" << endl;
+    cout << "\t answer: a = 7" << endl << endl;
+    getch();
+
+
+}
+
+float workoutGradient(float x1, float y1, float x2, float y2){
+
+    float xDifference = x2-x1;
+    float yDifference = y2-y1;
+    float gradient = yDifference / xDifference;
+    return gradient;
 }
 
 
 void coordinateGeometry_5c(){
+
+    cout << "-------------------- Section 5c --------------------" << endl << endl;
+
+    /*
+        Question 1
+    */
+    cout << "[1] Find the equation of the line which gradient m that passes through the point (x1, y1) when: " << endl;
+    cout << "\t 1a) m = 2 and (x1, y1) = (2, 5)" << endl;
+    cout << "\t we can use y-y1= m(x-x1)" << endl;
+    cout << "\t y - 5 = 2(x-2)" << endl;
+    cout << "\t y - 5 = 2x - 4" << endl;
+    cout << "\t answer: y = 2x + 1" << endl << endl;
+    getch();
+
+
+    /*
+        Question 2
+    */
+    cout << "[2] The line y = 4x - 8 meets the x-axis at A. \n Find the equation of the line with gradient 3 that passes through A." << endl;
+    cout << "\t m = 3, coordinates of A can be found when Y = 0" << endl;
+    cout << "\t Finding x: 0 = 4x - 8" << endl;
+    cout << "\t Finding x: 4x = 8, x = 8/4=, x = 2" << endl;
+    cout << "\t Coordinates of A: (2, 0)" << endl;
+    cout << "\t Use: y-y1=m(x-x1)" << endl;
+    cout << "\t y-0=3(x-2)" << endl;
+    cout << "\t answer: y = 3x - 6" << endl << endl;
+    getch();
 }
 
 void coordinateGeometry_5d(){
+
+    cout << "-------------------- Section 5d --------------------" << endl << endl;
+
+
 
 }
 

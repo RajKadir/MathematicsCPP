@@ -74,6 +74,10 @@ int main()
                 Chapter 5 - Coordinate Geometry
             */
             coordinateGeometry_5a();
+            coordinateGeometry_5b();
+            coordinateGeometry_5c();
+            coordinateGeometry_5d();
+            coordinateGeometry_5e();
             break;
 
         default:
