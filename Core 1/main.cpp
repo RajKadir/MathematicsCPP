@@ -95,7 +95,7 @@ int main()
             sequenceAndSeries_6f();
             sequenceAndSeries_6g();
             sequenceAndSeries_6h();
-            break
+            break;
 
 
         // Differentiation
