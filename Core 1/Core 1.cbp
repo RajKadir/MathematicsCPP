@@ -41,6 +41,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="quadraticFunctions.cpp" />
 		<Unit filename="quadraticFunctions.h" />
+		<Unit filename="sequenceAndSeries.cpp" />
+		<Unit filename="sequenceAndSeries.h" />
 		<Unit filename="sketchingCurves.cpp" />
 		<Unit filename="sketchingCurves.h" />
 		<Extensions>
