@@ -118,8 +118,16 @@ int main()
             break;
 
 
-        // Integration
+
         case 8:
+            /*
+                Chapter 8 - Integration
+            */
+            integration_8a();
+            integration_8b();
+            integration_8c();
+            integration_8d();
+            integration_8e();
 
             break;
 
