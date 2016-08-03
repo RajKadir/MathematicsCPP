@@ -162,17 +162,124 @@ void differentiation_7d(){
 }
 
 void differentiation_7e(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 7e --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    /*
+        Question 1
+    */
+    cout << "[1] Use standard results to differentiate: where v = square root" << endl;
+    cout << "\t 1a) 2vx" << endl;
+    cout << "\t square root of something is the power of a half." << endl;
+    cout << "\t y = 2x^1/2" << endl;
+    cout << "\t Answer: dy/dx = x^-1/2" << endl << endl;
+    getch();
+
+    /*
+        Question 1b
+    */
+    cout << "\t 1b) 3/x^2" << endl;
+    cout << "\t this can be written as y = 3x^-2" << endl;
+    cout << "\t Answer: differentiate: dy/dx = -6x^-3 " << endl << endl;
+    getch();
+
+    /*
+        Question 1c
+    */
+    cout << "\t 1c) 1/3x^3" << endl;
+    cout << "\t this can be written as y = 1/3x^-3" << endl;
+    cout << "\t differentiate: dy/dx = -3/3x^-3-1" << endl;
+    cout << "\t Answer: dy/dx = -x^4" << endl << endl;
+    getch();
+
+    /*
+        Question 2a
+    */
+    cout << "[2] Find the gradient of the curve with the equation y = f(x) at the point A where: " << endl;
+    cout << "\t 2a) f(x) = x(x+1) and A (0, 0)" << endl;
+    cout << "\t f(x) = x^2 + x" << endl;
+    cout << "\t f'(x) = 2x + 1" << endl;
+    cout << "\t f'(0) = 2(0) + 1 = 1 " << endl;
+    cout << "\t Answer: gradient of the curve is 1" << endl << endl;
+    getch();
+
+    /*
+        Question 2d
+    */
+    cout << "\t 2d) f(x) = 3x - 4/x^2 and A is at (2,5)" << endl;
+    cout << "\t f(x) = 3x - 4x^-2" << endl;
+    cout << "\t f'(x) = 3 + 8x^-3" << endl;
+    cout << "\t f'(2) = 3 + 8(2)^-3 " << endl;
+    cout << "\t 2^-3 = 1/2^3 = 1/8" << endl;
+    cout << "\t f'(2) = 3 + 8(1/8) = 3 + 1 = 4" << endl;
+    cout << "\t Answer: gradient of the curve is 4." << endl << endl;
+    getch();
 }
 
 void differentiation_7f(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 7f --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    /*
+        Question 1
+    */
+    cout << "Find dy/dx and d^2y/dx^2 when y equals: " << endl;
+    cout << "[1] 12x^2 + 3x + 8" << endl;
+    cout << "\t Answer: dy/dx = 24x + 3" << endl;
+    cout << "\t Answer: d^2y/dx^2 = 24" << endl << endl;
+    getch();
+
+    /*
+        Question 4
+    */
+    cout << "[4] (5x+4)(3x-2)" << endl;
+    cout << "y = 15x^2 -10x + 12x -8 " << endl;
+    cout << "y = 15x^2 + 2x - 8" << endl;
+    cout << "Answer: dy/dx = 30x + 2" << endl;
+    cout << "Answer: d^2y/dx^2 = 30" << endl << endl;
+    getch();
 }
 
 void differentiation_7g(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 7g --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+
+    cout << "[1] Find d0/dt where 0 = t^2 - 3t " << endl;
+    cout << "Answer: d0/dt = 2t - 3" << endl << endl;
+    getch();
+
+    cout << "[2] Find dA/dr where A = 2PIr" << endl;
+    cout << "Answer: dA/dr = 2PI" << endl << endl;
+    getch();
+
+    cout << "[3] Find dr/dt where r = 12/t" << endl;
+    cout << "\t Use standard results: 1/a = 1^-a so r = 12t^-1" << endl;
+    cout << "\t Answer: dr/dt = -12t^-2" << endl << endl;
+    getch();
+
+    cout << "[7] Find dA/dx where A = x(10-x) " << endl;
+    cout << "\t A = 10x - x^2" << endl;
+    cout << "\t Answer: dA/dx = 10 -2x" << endl << endl;
+    getch();
 }
 
 void differentiation_7h(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 7h --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    /*
+        Question 1
+    */
+    cout << "[1] Find the equation of the tangent to the curve: " << endl;
+    cout << "\t 1a) y = x^2 - 7x + 10 at point (2, 0)" << endl;
+    cout << "\t dy/dx = 2x - 7, gradient = 2(2) - 7 = -3" << endl;
+    cout << "\t Equation: y - 0 = -3(x-2) " << endl;
+    cout << "\t y = -3x + 6" << endl;
+    cout << "\t Answer 3x + y - 6 = 0" << endl << endl;
+    getch();
 }
