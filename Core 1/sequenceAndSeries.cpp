@@ -199,11 +199,49 @@ void sequenceAndSeries_6f(){
     getch();
 
 
+    cout << "[2] Find how many terms are needed to make the given sum:" << endl;
+
+    cout << "\t 2a) 5 + 8 + 11 + 14 + ... = 670" << endl;
+    cout << "\t a = 5, d = 3, Sn = 670, n = ?" << endl;
+    cout << "\t 670 = n/2[2(5) +(n-1)(3)]" << endl;
+    cout << "\t 1340 = n[10+3n-3]" << endl;
+    cout << "\t 1340 = n(3n+7)" << endl;
+    cout << "\t 1340 = 3n^2 + 7n" << endl;
+    cout << "\t 3n^2 + 7n - 1340" << endl;
+    cout << "\t x = 20, or x = -67/3" << endl;
+    cout << "\t Answer: 20" << endl << endl;
+    getch();
+
+    /*
+        Question 3
+    */
+    cout << "[3] Find the sum of the first 50 even numbers" << endl;
+    cout << "\t S = ?, a = 2, n = 50, d = 2" << endl;
+    cout << "\t S = 50/2[2(2) + (50-1)(2)]" << endl;
+    cout << "\t S = 50/2(4 + 98)" << endl;
+    cout << "\t S = 50/2(102)" << endl;
+    cout << "\t 2S = 50(102)" << endl;
+    cout << "\t 2S = 5100 " << endl;
+    cout << "\t Answer S = 2550" << endl << endl;
+    getch();
 
 }
 
 
 void sequenceAndSeries_6g(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 6g --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+
+    /*
+        Question 1
+    */
+
+    cout << "[1] Rewrite the following sums using E (Σ) notation: Where E is Sigma (Σ) or 'sum of'" << endl;
+
+    /*
+        Due to the nature of the question, we cannot write it into the console to the standard of the question
+    */
 
 }
 

@@ -36,6 +36,8 @@
 		<Unit filename="algebraAndFunctions.h" />
 		<Unit filename="coordinateGeometry.cpp" />
 		<Unit filename="coordinateGeometry.h" />
+		<Unit filename="differentiation.cpp" />
+		<Unit filename="differentiation.h" />
 		<Unit filename="equationsAndInequalities.cpp" />
 		<Unit filename="equationsAndInequalities.h" />
 		<Unit filename="main.cpp" />

@@ -10,6 +10,7 @@
 #include "sketchingCurves.h"
 #include "coordinateGeometry.h"
 #include "sequenceAndSeries.h"
+#include "differentiation.h"
 
 using namespace std;
 
@@ -87,6 +88,9 @@ int main()
 
 
         case 6:
+            /*
+                Chapter 6 - Sequences and Series
+            */
             sequenceAndSeries_6a();
             sequenceAndSeries_6b();
             sequenceAndSeries_6c();
@@ -98,9 +102,18 @@ int main()
             break;
 
 
-        // Differentiation
         case 7:
-
+            /*
+                Chapter 7 - Differentiation
+            */
+            differentiation_7a();
+            differentiation_7b();
+            differentiation_7c();
+            differentiation_7d();
+            differentiation_7e();
+            differentiation_7f();
+            differentiation_7g();
+            differentiation_7h();
             break;
 
 
