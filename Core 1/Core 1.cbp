@@ -40,6 +40,8 @@
 		<Unit filename="differentiation.h" />
 		<Unit filename="equationsAndInequalities.cpp" />
 		<Unit filename="equationsAndInequalities.h" />
+		<Unit filename="integration.cpp" />
+		<Unit filename="integration.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="quadraticFunctions.cpp" />
 		<Unit filename="quadraticFunctions.h" />

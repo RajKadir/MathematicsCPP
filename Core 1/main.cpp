@@ -11,6 +11,7 @@
 #include "coordinateGeometry.h"
 #include "sequenceAndSeries.h"
 #include "differentiation.h"
+#include "integration.h"
 
 using namespace std;
 

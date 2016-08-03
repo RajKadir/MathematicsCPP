@@ -282,4 +282,68 @@ void differentiation_7h(){
     cout << "\t y = -3x + 6" << endl;
     cout << "\t Answer 3x + y - 6 = 0" << endl << endl;
     getch();
+
+    cout << "\t 1b) y = x + 1/x at point (2, 5/2)" << endl;
+    cout << "\t Use standard results: y = x + x^-1" << endl;
+    cout << "\t dy/dx = 1 -x^-2" << endl;
+    cout << "\t sub x = 2: 1 - (2)^-2 = 1 - 1/4 = m = 3/4 " << endl;
+    cout << "\t Equation: y - 5/2 = 3/4(x - 2)" << endl;
+    cout << "\t Convert fractions: y - 10/4 = 3/4(x-2) " << endl;
+    cout << "\t Multiply by 4: 4y - 10 = 3(x-2)" << endl;
+    cout << "\t Expand: 4y - 10 = 3x - 6 " << endl;
+    cout << "\t Answer: 3x - 4y + 4 = 0 or 4y - 3x - 4 = 0" << endl << endl;
+    getch();
+
+
+    cout << "\t 1c) y = 4vx at point (9, 12)" << endl;
+    cout << "\t Use standard results: y = 4x^1/2" << endl;
+    cout << "\t dy/dx = 2x^-1/2" << endl;
+    cout << "\t sub x = 9: 2(9)^-1/2 = 2(1/3) = 2/3" << endl;
+    cout << "\t Equation: y - 12 = 2/3(x - 9)" << endl;
+    cout << "\t Multiply by 3: 3y - 36 = 2(x-9)" << endl;
+    cout << "\t Expand: 3y - 36 = 2x - 18" << endl;
+    cout << "\t Answer: 3y - 2x - 18 = 0" << endl << endl;
+    getch();
+
+    /*
+        Question 2
+    */
+    cout << "[2] Find the equation of the normal to the curves: " << endl;
+    cout << "\t 2a) y = x^2 - 5x at (6,6)" << endl;
+    cout << "\t dy/dx = 2x - 5" << endl;
+    cout << "\t sub x = 6, 2(6) - 5 = 7" << endl;
+    cout << "\t normal = -1/dy/dx = -1/7" << endl;
+    cout << "\t the product of a normal * gradient is - 1: 7 * -1/7 = -1" << endl;
+    cout << "\t Equation: y - 6 = -1/7(x-6)" << endl;
+    cout << "\t Multiply by 7: 7y - 42 = -1(x-6)" << endl;
+    cout << "\t Expand: 7y - 42 = -x + 6" << endl;
+    cout << "\t Answer: 7y + x - 48 = 0 " << endl << endl;
+    getch();
+
+
+    /*
+        Question 3
+    */
+    cout << "[3] Find the coordinates of the point where the tangent to the curve y = x^2 + 1 " << endl;
+    cout << "at the point (2,5) meets the normal to the same curve at point (1,2)" << endl;
+    cout << "\t dy/dx = 2x, when x = 2, 2(2) = 4" << endl;
+    cout << "\t its equation: y - 5 = 4(x-2)" << endl;
+    cout << "\t Equation 1: y - 5 = 4x - 8 = y = 4x - 3" << endl;
+    cout << "\t dy/dx = 2x, when x = 1, 2(1) = 2" << endl;
+    cout << "\t normal at (1,2) so its gradient is = -1/2" << endl;
+    cout << "\t Equation 2: y - 2 = -1/2(x-1)" << endl;
+    cout << "\t Multiply by 2: 2y - 4 = -1(x-1) " << endl;
+    cout << "\t Expand: 2y = -x + 5" << endl;
+    cout << "\t Divide by 2: y = -1/2x + 5/2" << endl;
+    cout << "\t Take away equation 1 to 2: 0 = 9/2x -11/2" << endl;
+    cout << "\t Multiply by 2: 9x - 11 = 0" << endl;
+    cout << "\t 9x = 11" << endl;
+    cout << "\t x = 11/9" << endl;
+    cout << "\t sub x = 11/9 into any equation." << endl;
+    cout << "\t sub x = 11/9: y = 4(11/9) - 3 = 44/9 - 3 = 44/9 - 27/9 = 17/9" << endl;
+    cout << "\t Answer: The tangent at (2,5) meets normal at (1,2) at (11/9, 17/9)" << endl << endl;
+    getch();
+
+
+
 }
