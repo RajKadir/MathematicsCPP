@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 #include "algebraAndFunctions.h"
 using namespace std;
 
@@ -17,7 +18,7 @@ void algebraAndFunctions_1a(){
 
     cout << "\t 1l) (-9x^9 -6x^4 - 2)/-3x" << endl;
     cout << "\t Divide each term: -9x^9/-3x -6x^4/3x -2/-3x" << endl;
-    cout << "\t Rules of Indices: +3x^8 +2x^3 + 2/3x^-1"
+    cout << "\t Rules of Indices: +3x^8 +2x^3 + 2/3x^-1" << endl;
     cout << "\t Answer: 3x^8 + 2x^3 + 2/3x^-1" << endl << endl;
     getch();
 

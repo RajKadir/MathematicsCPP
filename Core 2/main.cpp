@@ -56,7 +56,7 @@ int main(){
 
     int chapter;
     while(!quit){
-        cout << "Welcome to my A-Level testing in Core 1. " << endl;
+        cout << "Welcome to my A-Level testing in Core 2. " << endl;
         cout << "Which Chapter would you like to visit? 1-8" << endl;
         cout << "\t 1. Algebra and functions" << endl;
         cout << "\t 2. The sine and cosine rule" << endl;
