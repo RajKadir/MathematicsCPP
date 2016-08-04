@@ -167,6 +167,57 @@ void integration_8d(){
 }
 
 void integration_8e(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 8e --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+
+    cout << "[1] Find the equation of the curve with the given derivative of y" << endl;
+    cout << "with respect to x that passes through the given points. " << endl;
+
+    cout << "\t 1a) dy/dx = 3x^2 + 2x; point(2, 10)" << endl;
+    cout << "\t y = (3x^3)/3 + (2x^2)/2 + c" << endl;
+    cout << "\t y = x^3 + x^2 + c" << endl;
+    cout << "\t sub y = 10, x = 2: 10 = 2^3 + 2^2 + c" << endl;
+    cout << "\t 10 = 8 + 4 + c" << endl;
+    cout << "\t c = -2" << endl;
+    cout << "\t Answer: y = x^3 + x^2 - 2" << endl << endl;
+    getch();
 
 
+    cout << "\t 1b) dy/dx = 4x^3 + 2/x^3 + 3; point(1,4)" << endl;
+    cout << "\t dy/dx = 4x^3 + 2x^-3 + 3" << endl;
+    cout << "\t integrate: y = (4x^4)/4 + (2x^-2)/-2 + 3x + c" << endl;
+    cout << "\t y = x^4 - x^-2 + 3x + c" << endl;
+    cout << "\t sub x=1, sub y=4: 4 = 1^4 -1^-2 + 3(1) + c" << endl;
+    cout << "\t 4 = 1 - 1 + 3 + c" << endl;
+    cout << "\t c = 1" << endl;
+    cout << "\t Answer: y = x^4 -x^-2 + 3x + 1" << endl;
+
+    /*
+        Question 2
+    */
+    cout << "[2] The curve C, with equation y = f(x), passes through the point(1,2)" << endl;
+    cout << "and f'(x) = 2x^3 - 1/x^2 Find the equation of C in the form y = f(x)" << endl;
+    cout << "\t convert: f'(x) = 2x^3 -x^-2" << endl;
+    cout << "\t integrate: f(x) = (2x^4)/4 -(x^-1)/-1 + c" << endl;
+    cout << "\t f(x) = 1/2x^4 + x^-1 + c" << endl;
+    cout << "\t sub x=1, sub y=2" << endl;
+    cout << "\t 2 = (1/2)(1)^4 + (1)^-1 + c" << endl;
+    cout << "\t 2 = 1/2 + 1 + c" << endl;
+    cout << "\t c = 1/2" << endl;
+    cout << "\t Answer: y = 1/2x^4 + x^-1 + 1/2" << endl;
+
+}
+
+void integration_summary(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "---------------- Integration Summary ---------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+
+    cout << "[1] If dy/dx = x^n, then y = (1/n+1)x^n+1 + c     (n != -1)" << endl << endl;
+
+    cout << "[2] If dy/dx = kn^n, then y = (kx^n+1)/n+1 + c      (n != -1)" << endl << endl;
+
+    cout << "[3] Sx^ndx = (x^n+1)/n+1 + c     (n != -1)" << endl << endl << endl;
+    getch();
 }

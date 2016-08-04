@@ -122,11 +122,13 @@ void selectChapters(int chapter){
             integration_8c();
             integration_8d();
             integration_8e();
+            integration_summary();
 
             break;
 
         default:
             cout << "You probably entered an incorrect value try again later!" << endl;
+            /* Flag to end loop */
             quit = true;
     }
 
@@ -159,6 +161,6 @@ int main()
     }
 
 
-    // End
+    /* End */
     return 0;
 }
