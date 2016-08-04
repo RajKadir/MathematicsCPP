@@ -235,10 +235,10 @@ void differentiation_7f(){
         Question 4
     */
     cout << "[4] (5x+4)(3x-2)" << endl;
-    cout << "y = 15x^2 -10x + 12x -8 " << endl;
-    cout << "y = 15x^2 + 2x - 8" << endl;
-    cout << "Answer: dy/dx = 30x + 2" << endl;
-    cout << "Answer: d^2y/dx^2 = 30" << endl << endl;
+    cout << "\t y = 15x^2 -10x + 12x -8 " << endl;
+    cout << "\t y = 15x^2 + 2x - 8" << endl;
+    cout << "\t Answer: dy/dx = 30x + 2" << endl;
+    cout << "\t Answer: d^2y/dx^2 = 30" << endl << endl;
     getch();
 }
 
@@ -249,11 +249,11 @@ void differentiation_7g(){
 
 
     cout << "[1] Find d0/dt where 0 = t^2 - 3t " << endl;
-    cout << "Answer: d0/dt = 2t - 3" << endl << endl;
+    cout << "\t Answer: d0/dt = 2t - 3" << endl << endl;
     getch();
 
     cout << "[2] Find dA/dr where A = 2PIr" << endl;
-    cout << "Answer: dA/dr = 2PI" << endl << endl;
+    cout << "\t Answer: dA/dr = 2PI" << endl << endl;
     getch();
 
     cout << "[3] Find dr/dt where r = 12/t" << endl;

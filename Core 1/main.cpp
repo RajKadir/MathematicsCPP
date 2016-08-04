@@ -150,8 +150,8 @@ int main()
         cout << "Which Chapter would you like to visit? 1-8" << endl;
         cout << "\t 1. Algebra and Functions" << endl;
         cout << "\t 2. Quadratic Functions" << endl;
-        cout << "\t 3. Sketching Graphs " << endl;
-        cout << "\t 4. Equations and Inequalities" << endl;
+        cout << "\t 3. Equations and Inequalities" << endl;
+        cout << "\t 4. Sketching Graphs " << endl;
         cout << "\t 5. Coordinate Geometry" << endl;
         cout << "\t 6. Sequences and Series" << endl;
         cout << "\t 7. Differentiation" << endl;
