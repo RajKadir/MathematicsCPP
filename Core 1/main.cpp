@@ -15,16 +15,10 @@
 
 using namespace std;
 
+/* Global */
+bool quit = false;
 
-
-int main()
-{
-    cout << "Welcome to my A-Level testing in Core 1. " << endl;
-    cout << "Which Chapter would you like to visit? 1-8" << endl;
-
-    int chapter;
-    cin >> chapter;
-
+void selectChapters(int chapter){
     switch(chapter){
 
         case 1:
@@ -72,7 +66,7 @@ int main()
             /*
                 Chapter 4 - Sketching Curves
             */
-            // ON PAPER
+            sketchingCurves_3a();
             break;
 
 
@@ -133,14 +127,36 @@ int main()
 
         default:
             cout << "You probably entered an incorrect value try again later!" << endl;
+            quit = true;
     }
 
+}
 
 
+int main()
+{
 
+    /* Stores what chapter to view. */
+    int chapter;
 
+    /*
+        Main loop
+    */
+    while(quit==false){
 
-
+        cout << "Welcome to my A-Level testing in Core 1. " << endl;
+        cout << "Which Chapter would you like to visit? 1-8" << endl;
+        cout << "\t 1. Algebra and Functions" << endl;
+        cout << "\t 2. Quadratic Functions" << endl;
+        cout << "\t 3. Sketching Graphs " << endl;
+        cout << "\t 4. Equations and Inequalities" << endl;
+        cout << "\t 5. Coordinate Geometry" << endl;
+        cout << "\t 6. Sequences and Series" << endl;
+        cout << "\t 7. Differentiation" << endl;
+        cout << "\t 8. Integration" << endl;
+        cin >> chapter;
+        selectChapters(chapter);
+    }
 
 
     // End

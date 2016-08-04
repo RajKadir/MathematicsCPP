@@ -117,7 +117,53 @@ void integration_8c(){
 }
 
 void integration_8d(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 8d --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    cout << "[1] Find the following integrals. " << endl;
+    cout << "\t 1a) S(2x+3)x^2dx " << endl;
+    cout << "\t Expand: S(2x^3 + 3x^2)dx" << endl;
+    cout << "\t Integrate: = (2x^4)/4 + (3x^3)/3 + c" << endl;
+    cout << "\t Answer: = 1/2x^4 + x^3 + c" << endl << endl;
+    getch();
+
+    cout << "\t 1b) S(2x^2+3)/x^2dx " << endl;
+    cout << "\t Convert: S(2x^2)/x^2 + (3)/x^2 dx" << endl;
+    cout << "\t Convert: S(2 + 3x^-2)dx" << endl;
+    cout << "\t Integrate: 2x + (3x^-1)/-1 + c" << endl;
+    cout << "\t Answer: 2x -3x^-1 + c" << endl << endl;
+    getch();
+
+
+    cout << "\t 1c) S(2x+3)^2dx" << endl;
+    cout << "\t = S(2x+3)(2x+3)dx" << endl;
+    cout << "\t = S(4x^2 + 12x + 9)dx" << endl;
+    cout << "\t = (4x^3)/3 + (12x^2)/2 + 9x + c" << endl;
+    cout << "\t = 4/3x^3 + 6x^2 + 9x + c" << endl << endl;
+    getch();
+
+
+    cout << "[2] Find Sf(x)dx when f(x) is given by the following: " << endl;
+    cout << "\t f(x) = (x+2)^2 = (x+2)(x+2) = x^2 + 4x + 4 " << endl;
+    cout << "\t S(x^2 + 4x + 4)dx" << endl;
+    cout << "\t = (x^3)/3 + (4x^2)/2 + 4x + c" << endl;
+    cout << "\t Answer: = 1/3x^3 + 2x^2 + 4x + c" << endl << endl;
+    getch();
+
+
+    cout << "\t 2f) (1/vx + 2vx) where v is the square root" << endl;
+    cout << "\t Use standard results: (1/x^-1/2 + 2x^1/2)" << endl;
+    cout << "\t Integrate: (1x^1/2)1/2 + (2x^3/2)/3/2 + c" << endl;
+    cout << "\t Answer: 2x^1/2 + 4/3x^3/2 + c " << endl << endl;
+    getch();
+
+    cout << "[3] Find the following integrals: " << endl;
+    cout << "\t 3a S(3vx + 1/x^2)dx" << endl;
+    cout << "\t Use standard results: S(3x^1/2 + x^-2)" << endl;
+    cout << "\t Integrate: (3x^3/2)/3/2 + (x^-1)/-1 + c" << endl;
+    cout << "\t Answer: 2x^3/2 - x^-1 + c" << endl << endl;
+    getch();
 }
 
 void integration_8e(){
