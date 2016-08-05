@@ -139,14 +139,38 @@ void algebraAndFunctions_1d(){
 }
 
 void algebraAndFunctions_1e(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 1e --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    cout << "You can find the remainder when a polynomial is divided by (ax -b)" << endl;
+    cout << "remainder theorem:" << endl;
+    cout << "If a polynomial f(x) is divided by (ax-b) then remainder is f(b/a)" << endl << endl;
+    getch();
+
+    cout << "[1] Find the remainder when: " << endl;
+    cout << "\t 1a) 4x^3 -5x^2 + 7x + 1 divided by (x-2)" << endl;
+    cout << "\t Here a = 1,  -b = -2, so b = 2" << endl;
+    cout << "\t f(b/a) = f(2/1) = f(2)" << endl;
+    cout << "\t f(2) = 4(2)^3 -5(2)^2 + 7(2) + 1 = 4(8) -5(4) + 7(2) + 1" << endl;
+    cout << "\t Answer: Remainder is 27." << endl << endl;
+    getch();
 }
 
-void algebraAndFunctions_1f(){
-
-}
 
 void algebraAndFunctions_summary(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "--------------- Summary of key points --------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+    getch();
 
+    cout << "[1] If f(x) is a polynomial and f(a) = 0, then (x-a) is a factor of f(x)." << endl << endl;
+    getch();
+
+    cout << "[2] If f(x) is a polynomial and f(b/a)=0 then (ax-b) is a factor of f(x)." << endl << endl;
+    getch();
+
+    cout << "[3] If a polynomial f(x) is divided by (ax-b) then the remainder is f(b/a)." << endl << endl;
+    getch();
 }
 

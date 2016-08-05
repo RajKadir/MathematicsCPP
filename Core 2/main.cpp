@@ -3,6 +3,8 @@ using namespace std;
 
 /* Chapter Files */
 #include "algebraAndFunctions.h"
+#include "theSineAndCosineRule.h"
+
 
 /* Global */
 bool quit = false;
@@ -18,10 +20,18 @@ void selectChapters(int chapter){
             algebraAndFunctions_1c();
             algebraAndFunctions_1d();
             algebraAndFunctions_1e();
-            algebraAndFunctions_1f();
+         //   algebraAndFunctions_1f();
             algebraAndFunctions_summary();
             break;
         case 2:
+            theSineAndCosineRule_2a();
+            theSineAndCosineRule_2b();
+            theSineAndCosineRule_2c();
+            theSineAndCosineRule_2d();
+            theSineAndCosineRule_2e();
+            theSineAndCosineRule_2f();
+            theSineAndCosineRule_2g();
+            theSineAndCosineRule_summary();
             break;
 
         case 3:

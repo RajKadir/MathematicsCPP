@@ -34,6 +34,8 @@
 		<Unit filename="algebraAndFunctions.cpp" />
 		<Unit filename="algebraAndFunctions.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="theSineAndCosineRule.cpp" />
+		<Unit filename="theSineAndCosineRule.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
