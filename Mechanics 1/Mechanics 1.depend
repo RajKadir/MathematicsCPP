@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1471390266 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\dynamicsofaparticlemovinginastraightline.cpp
+	<iostream>
+	<conio.h>
+	"dynamicsOfAParticleMovingInAStraightLine.h"
+
+1471390199 c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\dynamicsofaparticlemovinginastraightline.h
+
+1471390639 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\kinematicsofaparticlemovinginastraightline.cpp
+	<iostream>
+	<conio.h>
+	"kinematicsOfAParticleMovingInAStraightLine.h"
+
+1471390667 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\main.cpp
+	<iostream>
+	"kinematicsOfAParticleMovingInAStraightLine.h"
+	"dynamicsOfAParticleMovingInAStraightLine.h"
+	"staticsOfAParticle.h"
+	"moments.h"
+	"vectors.h"
+
+1471389434 c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\kinematicsofaparticlemovinginastraightline.h
+
+1471390466 c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\staticsofaparticle.h
+
+1471389954 c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\moments.h
+
+1471389754 c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\vectors.h
+
+1471389246 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\mathematicalmodelsinmechanics.cpp
+
+1471390539 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\moments.cpp
+	<iostream>
+	<conio.h>
+	"moments.h"
+
+1471390482 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\staticsofaparticle.cpp
+	<iostream>
+	<conio.h>
+	"staticsOfAParticle.h"
+
+1471389868 source:c:\svn\mathematicscpp\trunk\mechanics 1\mechanics 1\vectors.cpp
+	<iostream>
+	<conio.h>
+	"vectors.h"
+
