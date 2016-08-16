@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1470409960 source:c:\svn\mathematicscpp\trunk\core 2\algebraandfunctions.cpp
+	<iostream>
+	<conio.h>
+	"algebraAndFunctions.h"
+
+1470337913 c:\svn\mathematicscpp\trunk\core 2\algebraandfunctions.h
+
+1470785353 source:c:\svn\mathematicscpp\trunk\core 2\coordinategeometryinthexyplane.cpp
+	<iostream>
+	<conio.h>
+	<math.h>
+	"coordinateGeometryInTheXYPlane.h"
+
+1470782856 c:\svn\mathematicscpp\trunk\core 2\coordinategeometryinthexyplane.h
+
+1470701698 source:c:\svn\mathematicscpp\trunk\core 2\exponentialsandlogarithms.cpp
+	<iostream>
+	<conio.h>
+	<cmath>
+	"exponentialsAndLogarithms.h"
+
+1470689977 c:\svn\mathematicscpp\trunk\core 2\exponentialsandlogarithms.h
+
+1471362584 source:c:\svn\mathematicscpp\trunk\core 2\main.cpp
+	<iostream>
+	"algebraAndFunctions.h"
+	"theSineAndCosineRule.h"
+	"exponentialsAndLogarithms.h"
+	"coordinateGeometryInTheXYPlane.h"
+	"theBinomialExpansion.h"
+	"radianMeasureAndItsApplications.h"
+	"geometricSequencesAndSeries.h"
+	"graphsOfTrigonometricFunctions.h"
+	"differentiation.h"
+	"trigonometricalIdentitiesAndSimpleEquations.h"
+	"integration.h"
+	"formulae.h"
+
+1470410205 c:\svn\mathematicscpp\trunk\core 2\thesineandcosinerule.h
+
+1470864023 c:\svn\mathematicscpp\trunk\core 2\thebinomialexpansion.h
+
+1470662597 source:c:\svn\mathematicscpp\trunk\core 2\thesineandcosinerule.cpp
+	<iostream>
+	<conio.h>
+	<math.h>
+	"theSineAndCosineRule.h"
+
+1470925356 source:c:\svn\mathematicscpp\trunk\core 2\thebinomialexpansion.cpp
+	<iostream>
+	<conio.h>
+	<math.h>
+	"theBinomialExpansion.h"
+
+1471367904 source:c:\svn\mathematicscpp\trunk\core 2\differentiation.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"differentiation.h"
+
+1471038581 c:\svn\mathematicscpp\trunk\core 2\differentiation.h
+
+1471171086 c:\svn\mathematicscpp\trunk\core 2\radianmeasureanditsapplications.h
+
+1471199565 source:c:\svn\mathematicscpp\trunk\core 2\radianmeasureanditsapplications.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"radianMeasureAndItsApplications.h"
+
+1471367914 source:c:\svn\mathematicscpp\trunk\core 2\geometricsequencesandseries.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"geometricSequencesAndSeries.h"
+
+1471199716 c:\svn\mathematicscpp\trunk\core 2\geometricsequencesandseries.h
+
+1471212644 source:c:\svn\mathematicscpp\trunk\core 2\formulae.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"formulae.h"
+
+1471201069 c:\svn\mathematicscpp\trunk\core 2\formulae.h
+
+1471200183 source:c:\svn\mathematicscpp\trunk\core 2\graphsoftrigonometricfunctions.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"graphsOfTrigonometricFunctions.h"
+
+1471200133 c:\svn\mathematicscpp\trunk\core 2\graphsoftrigonometricfunctions.h
+
+1471200494 c:\svn\mathematicscpp\trunk\core 2\trigonometricalidentitiesandsimpleequations.h
+
+1471386103 c:\svn\mathematicscpp\trunk\core 2\integration.h
+
+1471362561 source:c:\svn\mathematicscpp\trunk\core 2\trigonometricalidentitiesandsimpleequations.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"trigonometricalIdentitiesAndSimpleEquations.h"
+
+1471368308 source:c:\svn\mathematicscpp\trunk\core 2\integration.cpp
+	<iostream>
+	<cmath>
+	<conio.h>
+	"integration.h"
+
