@@ -145,24 +145,161 @@ void theSineAndCosineRule_2d(){
     cout << "\t And to find a, square root a^2, because it is a unit of length, take the positive. " << endl;
 
     double a, b = 6.5, c = 8.4, A = 20;
-    a = sqrt(pow(b, 2) + pow(c, 2) - 2*b*c*cos(A*PI/180))
+    a = sqrt(pow(b, 2) + pow(c, 2) - 2*b*c*cos(A*PI/180));
+    cout << "\t The answer is: a = " << a << "cm" << endl << endl;
+    getch();
 
 
 }
 
 void theSineAndCosineRule_2e(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 2e --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    cout << "Using the cosine rule to find an unknown angle" << endl;
+    cout << "You can find an unknown angle in a triangle if you " << endl;
+    cout << "know the lengths of all three sides" << endl << endl;
+    getch();
+
+    cout << "We can do this by rearranging the equation: " << endl;
+    cout << "\t a^2 = b^2 + c^2 - 2bccosA" << endl;
+    cout << "\t 2bcosA = b^2 + c^2 - a^" << endl;
+    cout << "\t cos A = (b^2 + c^2 - a^2)/2bc" << endl;
+    cout << "\t then take the inverse of cos A to get A" << endl;
+
+
+    cout << "[1] In the following triangles calculate the size of the angle marked *" << endl;
+    cout << "\t /\ ABC, AB = 4cm, BC = 8cm, CA = 10cm, ABC = *" << endl;
+    cout << "\t CA must be a, since the angle opposite to the edge is marked *" << endl;
+    cout << "\t the other two edges can be either b or c" << endl;
+    cout << "\t So cos A = (AB^2 + BC^2 - CA^2)/2(AB)(BC) " << endl;
+    cout << "\t Inverse the answer to get A" << endl;
+
+    double  a = 10.0, b = 4.0, c = 8.0, A;
+    // cos A = (b^2 + c^2 - a^2)/2bc
+    A = (pow(b, 2) + pow(c,2) - pow(a,2))/(2*b*c);
+    // A = cos-1(cos A)
+    A = acos(A) * 180 / PI;
+
+    cout << "The answer is: " << A << " degrees" << endl;
 }
 
 void theSineAndCosineRule_2f(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 2f --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
 
+    cout << "Understand the sine rule, the cosine rule, the trigonometric ratios " << endl;
+    cout << "sin cos and tan, and Pythagoras' theorem to solve problems. " << endl << endl;
+
+    cout << "When a triangle has a right angle or isosceles, use sine, cosine, tangent or Pythagoras theorem." << endl;
+    cout << "The line of symmetry produces two right angle triangles" << endl;
+    cout << "Use cosine rule when you are given either two sides and the angle between them or three sides" << endl << endl;
+
+    cout << "For other combinations use the sine rule. " << endl;
+    cout << "When you have used the cosine rule once, it is generally better not to use it again" << endl;
+    cout << "as the cosine rule involves more calculations and so may introduce more errors" << endl << endl;
+
+
+    cout << "[1] In each triangle below find the values of x, y, and z. " << endl;
+    cout << "\t 1a) AB = 4.2cm, BC = 5.7cm, AC = z cm, ABC = y, ACB = x, BAC = 56 degrees" << endl;
+    cout << "\t Here sin sin A/a = sin B/b so: sin BAC/BC = sin ACB/AB" << endl;
+    cout << "\t (sin BAC/BC)(AB) = sin ACB" << endl;
+    cout << "\t sin-1(sin ACB)" << endl;
+
+    /*
+        Calculation in C++
+        Triangle /\ A-c-B-a-C-b-A
+        lower case = side length cm
+        upper case = angle degrees
+    */
+    double AB = 4.2, BC = 5.7, AC, ABC, ACB, BAC = 56;
+
+    ACB = sin(BAC*PI/180)*(AB);
+    ACB = ACB / BC;
+    ACB = asin(ACB) * 180 / PI;
+
+    cout << "Angle ACB (x) = " << ACB << " degrees" << endl;
+
+    /*
+        Find the other angle
+    */
+    ABC = 180 - BAC - ACB;
+    cout << "Angle ABC (y) = " << ABC << " degrees" << endl;
+
+    /*
+        Find the other length using sine rule a/sin A = b/sin B
+    */
+
+    // 1. AB/sin(ACB) = AC/sin(ABC);
+    // 2. AC = (sin(ABC) * AB)/sin(ACB);
+    AC = (sin(ABC*PI/180) * AB)/sin(ACB*PI/180);
+    cout << "Side AC (z) = " <<  AC << " cm" << endl;
 }
 
 void theSineAndCosineRule_2g(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "-------------------- Section 2g --------------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+
+    cout << "You can calculate the area of a triangle using the formula: " << endl;
+    cout << "Area of a triangle = 1/2absinC or 1/2acsinB or 1/2bcsinA" << endl << endl;
+    getch();
+
+    cout << "[1] Calculate the area of the following triangles: " << endl;
+    cout << "\t 1a) /\ ABC, AB = 8.6cm, BC = ?, AC = 7.8cm, BAC = 45 degrees" << endl;
+    cout << "\t Area of triangle = (1/2)(8.6)(7.8)sin(45) " << endl;
+
+    /*
+        Calculation
+    */
+    double Area, AB = 8.6, AC = 7.8, BAC = 45;
+    Area = 0.5*AB*AC*sin(45*PI/180);
+
+    cout << "\t Area of triangle = " << Area << " cm^2" << endl << endl;
+    getch();
 
 }
 
 void theSineAndCosineRule_summary(){
+    cout << "----------------------------------------------------" << endl;
+    cout << "--------------- Summary of key points --------------" << endl;
+    cout << "----------------------------------------------------" << endl << endl;
+    getch();
 
-}
+    cout << "[1] The sine rule is: a/sin A = b/sin B = c/sin C or sin A/a = sin B/b = sin C/c" << endl << endl;
+    getch();
+
+    cout << "[2] You can find the sine rule to find an unknown side in a triangle " << endl;
+    cout << "if you know two angles the length of one of their opposite sides." << endl << endl;
+    getch();
+
+    cout << "[3] You can use the sine rule to find an unknown angle in a triangle " << endl;
+    cout << "if you know the lengths of two sides and one of their opposite angles." << endl << endl;
+    getch();
+
+    cout << "[4] The cosine rule is: a^2 = b^2 + c^2 - 2bccos A" << endl;
+    cout << "\t b^2 = a^2 + c^2 - 2accos B or c^2 = a^2 + b^2 - 2abcos C" << endl << endl;
+    getch();
+
+    cout << "[5] You can use the cosine rule to find an unknown side in a triangle" << endl;
+    cout << "if you know the lengths of two sides and the angle between them." << endl << endl;
+    getch();
+
+    cout << "[6] You can use the cosine rule to find an unknown angle if you know " << endl;
+    cout << "the lengths of all three sides. " << endl << endl;
+    getch();
+
+    cout << "[7] You can find an unknown angle using a rearranged form of the cosine rule: " << endl;
+    cout << "cos A = (b^2 + c^2 - a^2)/2bc  or  cos B = (a^2 + c^2 -b^2)/2ac  or  " << endl;
+    cout << "cos C = (a^2 + b^2 - c^2)/2ab "  << endl << endl;
+    getch();
+
+    cout << "[8] You can find the area of a triangle using the formula: " << endl;
+    cout << "area = 1/2absin C  if you know the length of two sides (a and b) " << endl;
+    cout << "and the value of the angle C between them. " << endl << endl;
+    getch();
+
+ }
 

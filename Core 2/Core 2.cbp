@@ -33,9 +33,29 @@
 		</Compiler>
 		<Unit filename="algebraAndFunctions.cpp" />
 		<Unit filename="algebraAndFunctions.h" />
+		<Unit filename="coordinateGeometryInTheXYPlane.cpp" />
+		<Unit filename="coordinateGeometryInTheXYPlane.h" />
+		<Unit filename="differentiation.cpp" />
+		<Unit filename="differentiation.h" />
+		<Unit filename="exponentialsAndLogarithms.cpp" />
+		<Unit filename="exponentialsAndLogarithms.h" />
+		<Unit filename="formulae.cpp" />
+		<Unit filename="formulae.h" />
+		<Unit filename="geometricSequencesAndSeries.cpp" />
+		<Unit filename="geometricSequencesAndSeries.h" />
+		<Unit filename="graphsOfTrigonometricFunctions.cpp" />
+		<Unit filename="graphsOfTrigonometricFunctions.h" />
+		<Unit filename="integration.cpp" />
+		<Unit filename="integration.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="radianMeasureAndItsApplications.cpp" />
+		<Unit filename="radianMeasureAndItsApplications.h" />
+		<Unit filename="theBinomialExpansion.cpp" />
+		<Unit filename="theBinomialExpansion.h" />
 		<Unit filename="theSineAndCosineRule.cpp" />
 		<Unit filename="theSineAndCosineRule.h" />
+		<Unit filename="trigonometricalIdentitiesAndSimpleEquations.h" />
+		<Unit filename="trigonometricalidentitiesAndSimpleEquations.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
