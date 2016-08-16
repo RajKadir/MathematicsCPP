@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mechanics 1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mechanics 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Mechanics 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="dynamicsOfAParticleMovingInAStraightLine.cpp" />
+		<Unit filename="dynamicsOfAParticleMovingInAStraightLine.h" />
+		<Unit filename="kinematicsOfAParticleMovingInAStraightLine.cpp" />
+		<Unit filename="kinematicsOfAParticleMovingInAStraightLine.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mathematicalModelsInMechanics.cpp" />
+		<Unit filename="mathematicalModelsInMechanics.h" />
+		<Unit filename="moments.cpp" />
+		<Unit filename="moments.h" />
+		<Unit filename="staticsOfAParticle.cpp" />
+		<Unit filename="staticsOfAParticle.h" />
+		<Unit filename="vectors.cpp" />
+		<Unit filename="vectors.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

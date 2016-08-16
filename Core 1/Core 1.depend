@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1470331589 source:c:\svn\mathematicscpp\trunk\core 1\algebraandfunctions.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"algebraAndFunctions.h"
+
+1469697149 c:\svn\mathematicscpp\trunk\core 1\algebraandfunctions.h
+
+1469969216 source:c:\svn\mathematicscpp\trunk\core 1\coordinategeometry.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"coordinateGeometry.h"
+
+1469885181 c:\svn\mathematicscpp\trunk\core 1\coordinategeometry.h
+
+1469696304 source:c:\svn\mathematicscpp\trunk\core 1\equationsandinequalities.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"equationsAndInequalities.h"
+
+1470333086 c:\svn\mathematicscpp\trunk\core 1\equationsandinequalities.h
+
+1470332576 source:c:\svn\mathematicscpp\trunk\core 1\main.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"algebraAndFunctions.h"
+	"quadraticFunctions.h"
+	"equationsAndInequalities.h"
+	"sketchingCurves.h"
+	"coordinateGeometry.h"
+	"sequenceAndSeries.h"
+	"differentiation.h"
+	"integration.h"
+
+1469697197 c:\svn\mathematicscpp\trunk\core 1\quadraticfunctions.h
+
+1470327734 c:\svn\mathematicscpp\trunk\core 1\sketchingcurves.h
+
+1469969454 c:\svn\mathematicscpp\trunk\core 1\sequenceandseries.h
+
+1470332519 source:c:\svn\mathematicscpp\trunk\core 1\quadraticfunctions.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"quadraticFunctions.h"
+
+1470327789 source:c:\svn\mathematicscpp\trunk\core 1\sketchingcurves.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"sketchingCurves.h"
+
+1470255140 source:c:\svn\mathematicscpp\trunk\core 1\sequenceandseries.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"sequenceAndSeries.h"
+
+1470331714 source:c:\svn\mathematicscpp\trunk\core 1\differentiation.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"differentiation.h"
+
+1470255454 c:\svn\mathematicscpp\trunk\core 1\differentiation.h
+
+1470329347 c:\svn\mathematicscpp\trunk\core 1\integration.h
+
+1470329414 source:c:\svn\mathematicscpp\trunk\core 1\integration.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	<windows.h>
+	"integration.h"
+
